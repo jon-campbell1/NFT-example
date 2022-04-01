@@ -24,8 +24,8 @@
 8. Learn about ERC-721 standard:
    https://eips.ethereum.org/EIPS/eip-721
 
- 9. npx hardhat compile
-    npx hardhat --network ropsten run scripts/deploy.js
+9. npx hardhat compile
+   npx hardhat --network ropsten run scripts/deploy.js
 
 10. Use Ropsten Etherscan to see your contract deployed!
 https://ropsten.etherscan.io/
