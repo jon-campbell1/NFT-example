@@ -1,0 +1,51 @@
+1. Sign up for alchemy: https://alchemy.com/signup/eth
+   -	Alchemy is a blockchain developer platform that allows us to communicate with the Ethereum chain.
+
+
+2. Install metamask extension: https://metamask.io/download.html
+   - A virtual wallet which will give us an Ethereum account to send and receive transactions 
+
+3. Send Ropsten Test Etherum to your Metamask wallet from a faucet:
+  https://fauceth.komputing.org/
+  -	A faucet is an application that distributes small amounts of cryptocurrencies
+
+4. Check your balance using Alchemy’s composer tool: https://composer.alchemyapi.io/?composer_state=%7B%22network%22%3A0%2C%22methodName%22%3A%22eth_getBalance%22%2C%22paramValues%22%3A%5B%22%22%2C%22latest%22%5D%7D
+
+6. update .env with your public key, private key, and alchemy application url
+
+5. run npm i
+
+6. We are using HardHat development environment
+   https://hardhat.org/getting-started/#overview
+
+7. We are using  Open Zeppelin libraries: https://docs.openzeppelin.com/contracts/3.x/
+- A library for smart contract development
+
+8. Learn about ERC-721 standard:
+   https://eips.ethereum.org/EIPS/eip-721
+
+ 9. npx hardhat compile
+    npx hardhat --network ropsten run scripts/deploy.js
+
+10. Use Ropsten Etherscan to see your contract deployed!
+https://ropsten.etherscan.io/
+
+11. Learn about ABIs:
+https://docs.alchemy.com/alchemy/guides/eth_getlogs#what-are-ab-is
+-	Application Binary Interface (ABI) is the interface that specifies how to interact with a specific Ethereum contract
+
+12. Use Pinata to upload your image (or any other file): https://app.pinata.cloud
+
+13.  update nft-metadata.json to include any information about your file
+
+14. Upload your nft-metadata.json to Pinata also
+
+15. update mint-nft.js mint function with the url to your nft-metadata.json on Pinata
+  e.g.:
+  mintNFT(
+    "ipfs://QmcQYw5Mc8xrSXucWPHw5gQ7JGCs798zTx73KegAcYCB2e"
+  )
+
+16. node scripts/mint-nft.js
+
+17. check mempool cache https://dashboard.alchemyapi.io/mempool
