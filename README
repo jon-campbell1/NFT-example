@@ -41,7 +41,7 @@ https://docs.alchemy.com/alchemy/guides/eth_getlogs#what-are-ab-is
 
 14. Upload your nft-metadata.json to Pinata also
 
-15. update mint-nft.js mint function with the url to your nft-metadata.json on Pinata
+15. update mint-nft.js mint function with the url to your nft-metadata.json file hash from Pinata
   e.g.:
   mintNFT(
     "ipfs://QmcQYw5Mc8xrSXucWPHw5gQ7JGCs798zTx73KegAcYCB2e"
