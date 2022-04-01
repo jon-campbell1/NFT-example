@@ -1,5 +1,5 @@
 // deploys contract to Etherum chain
-// npm hardhad compile
+// npx hardhat compile
 // npx hardhat --network ropsten run scripts/deploy.js
 
 async function main() {
