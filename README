@@ -4,6 +4,7 @@
 
 2. Install metamask extension: https://metamask.io/download.html
    - A virtual wallet which will give us an Ethereum account to send and receive transactions 
+   - Make sure to use Ropsten Test Network for any test development
 
 3. Send Ropsten Test Etherum to your Metamask wallet from a faucet:
   https://fauceth.komputing.org/
